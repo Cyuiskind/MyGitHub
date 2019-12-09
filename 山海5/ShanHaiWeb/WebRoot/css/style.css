@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+article.a{
+	float:left;
+	text-align: center;
+	width:"400";
+	height:"400";
+}
+
+p.pos_leftf{
+	position:relative;
+	left:-230px;
+	top:+180px;
+}
+
+p.pos_rightf{
+	position:relative;
+	left:-230px;
+	top:+180px;
+}
+
+body{background:images/孔雀花.jpg left top no-repeat;}

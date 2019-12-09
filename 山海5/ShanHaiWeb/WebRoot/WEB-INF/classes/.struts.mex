@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="default" location="65,1017" size="170,70" />
+  <package name="user" location="850,107" size="280,980">
+    <action name="user_*" location="65,57" size="150,251">
+      <result name="added_user">
+        <resourceEdge source="added_user" routing="0" target="succregi.jsp" />
+      </result>
+      <result name="failregi">
+        <resourceEdge source="failregi" routing="0" target="failregi.jsp" />
+      </result>
+      <result name="succlog">
+        <resourceEdge source="succlog" routing="0" target="succlog.jsp" />
+      </result>
+      <result name="faillog">
+        <resourceEdge source="faillog" routing="0" target="faillog.jsp" />
+      </result>
+      <result name="wrongname">
+        <resourceEdge source="wrongname" routing="0" target="wrongname.jsp" />
+      </result>
+      <result name="mypage">
+        <resourceEdge source="mypage" routing="0" target="myspace.jsp" />
+      </result>
+      <result name="show_user">
+        <resourceEdge source="show_user" routing="0" target="showuser.jsp" />
+      </result>
+      <result name="detail_view">
+        <resourceEdge source="detail_view" routing="0" target="detail.jsp" />
+      </result>
+      <result name="edit_view">
+        <resourceEdge source="edit_view" routing="0" target="edit.jsp" />
+      </result>
+      <result name="delete_message">
+        <resourceEdge source="delete_message" routing="0" target="delete_message.jsp" />
+      </result>
+      <result name="edit_message">
+        <resourceEdge source="edit_message" routing="0" target="edit_message.jsp" />
+      </result>
+    </action>
+  </package>
+  <package name="moment" location="10,1122" size="840,280">
+    <action name="moment_*" location="65,75" size="150,146">
+      <result name="show_view" />
+      <result name="added_moment">
+        <resourceEdge source="added_moment" routing="0" target="succpomo.jsp" />
+      </result>
+      <result name="input">
+        <resourceEdge source="input" routing="0" target="succpomo.jsp" />
+      </result>
+      <result name="show_moment">
+        <resourceEdge source="show_moment" routing="0" target="main.jsp" />
+      </result>
+      <result name="zan">
+        <resourceEdge source="zan" routing="0" target="main.jsp" />
+      </result>
+      <result name="pinglun">
+        <resourceEdge source="pinglun" routing="0" target="pinglun.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="succregi.jsp" path="/succregi.jsp" location="635,954" size="150,55" />
+  <webResource name="failregi.jsp" path="/failregi.jsp" location="635,849" size="150,55" />
+  <webResource name="succlog.jsp" path="/succlog.jsp" location="635,744" size="150,55" />
+  <webResource name="faillog.jsp" path="/faillog.jsp" location="635,639" size="150,55" />
+  <webResource name="wrongname.jsp" path="/wrongname.jsp" location="635,534" size="150,55" />
+  <webResource name="myspace.jsp" path="/myspace.jsp" location="635,429" size="150,55" />
+  <webResource name="showuser.jsp" path="/showuser.jsp" location="635,254" size="150,55" />
+  <webResource name="detail.jsp" path="/detail.jsp" location="915,9" size="150,55" />
+  <webResource name="edit.jsp" path="/edit.jsp" location="1195,254" size="150,55" />
+  <webResource name="delete_message.jsp" path="/delete_message.jsp" location="1195,429" size="150,55" />
+  <webResource name="edit_message.jsp" path="/edit_message.jsp" location="915,1129" size="150,55" />
+  <webResource name="succpomo.jsp" path="/succpomo.jsp" location="320,1444" size="150,55" />
+  <webResource name="main.jsp" path="/main.jsp" location="77,1494" size="150,55" />
+  <webResource name="pinglun.jsp" path="/pinglun.jsp" location="600,1444" size="150,55" />
+</Struts2Diagram>
+
